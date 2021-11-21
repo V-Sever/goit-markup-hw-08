@@ -10,6 +10,7 @@
 .footer-flex {
   @media screen and (min-width: 1200px) {
     display: flex;
+    justify-content: space-between;
   }
 }
 
@@ -25,7 +26,7 @@
   @media screen and (min-width: 1200px) {
     display: flex;
     margin-bottom: 0;
-    margin-right: 93px;
+    // margin-right: 93px;
   }
 }
 
@@ -91,7 +92,7 @@
   }
   @media screen and (min-width: 1200px) {
     margin-top: 0;
-    margin-left: 70px;
+    margin-left: 85px;
     padding-top: 12px;
   }
 }
@@ -156,7 +157,9 @@
 
   @media screen and (min-width: 1200px) {
     padding-top: 12px;
-    // display: block;
+    display: block;
+    text-align: left;
+    margin-left: 93px;
   }
 }
 
@@ -173,8 +176,9 @@
   color: var(--third-text-color);
 
   @media screen and (min-width: 1200px) {
+    width: 570px;
     display: block;
-    // text-align: left;
+    text-align: left;
   }
 }
 
@@ -194,12 +198,16 @@
   color: var(--third-text-color);
 
   @media screen and (min-width: 1200px) {
+    display: inline-block;
     max-width: 358px;
+    margin-bottom: 0;
+    margin-right: 12px;
   }
 }
 
 .follow-us-btn {
   position: relative;
+  display: inline-block;
 
   padding-top: 10px;
   padding-bottom: 10px;

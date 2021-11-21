@@ -1027,6 +1027,7 @@ img {
 @media screen and (min-width: 1200px) {
   .footer-flex {
     display: flex;
+    justify-content: space-between;
   }
 }
 
@@ -1047,7 +1048,6 @@ img {
   .footer--wrapper {
     display: flex;
     margin-bottom: 0;
-    margin-right: 93px;
   }
 }
 
@@ -1118,7 +1118,7 @@ img {
 @media screen and (min-width: 1200px) {
   .join {
     margin-top: 0;
-    margin-left: 70px;
+    margin-left: 85px;
     padding-top: 12px;
   }
 }
@@ -1184,6 +1184,9 @@ img {
 @media screen and (min-width: 1200px) {
   .follow-us-form {
     padding-top: 12px;
+    display: block;
+    text-align: left;
+    margin-left: 93px;
   }
 }
 
@@ -1200,7 +1203,9 @@ img {
 
 @media screen and (min-width: 1200px) {
   .follow-us-label {
+    width: 570px;
     display: block;
+    text-align: left;
   }
 }
 
@@ -1221,12 +1226,16 @@ img {
 
 @media screen and (min-width: 1200px) {
   .follow-us-input {
+    display: inline-block;
     max-width: 358px;
+    margin-bottom: 0;
+    margin-right: 12px;
   }
 }
 
 .follow-us-btn {
   position: relative;
+  display: inline-block;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 29px;
