@@ -44,7 +44,7 @@
 
 .nav-list__link {
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 33px;
 
   color: var(--second-text-color);
 
@@ -125,5 +125,9 @@
 
 .contact-list__icon {
   fill: currentColor;
-  margin-right: 10px;
+  margin-right: 8px;
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 10px;
+  }
 }
