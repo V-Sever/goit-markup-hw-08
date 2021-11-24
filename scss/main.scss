@@ -9,18 +9,13 @@
 @import "./components/container";
 @import "./components/logo";
 @import "./components/mobile-menu";
-// @import "./components/navigation";-----
-// @import "./components/contacts";-----
 @import "./components/button";
 @import "./components/backdrop";
 @import "./components/modal";
 @import "./components/modal-form";
 @import "./components/section-header";
 @import "./components/social-link";
-// @import "./components/logo-footer";-----
-// @import "./components/footer-form";-----
-// @import "./components/footer-icons";-----
-// @import "./components/overlay";
+@import "./components/overlay";
 
 // LAYOUT
 @import "./layout/header";
@@ -30,4 +25,4 @@
 @import "./layout/team";
 @import "./layout/clients";
 @import "./layout/footer";
-// @import "./layout/portfolio";
+@import "./layout/portfolio";
