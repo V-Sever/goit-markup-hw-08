@@ -149,7 +149,7 @@ img {
   pointer-events: all;
 }
 
-.close-btn {
+.close-menu-btn {
   position: absolute;
   top: 10px;
   right: 15px;
@@ -170,10 +170,6 @@ img {
 
 .close-btn-icon:hover, .close-btn-icon:focus {
   fill: var(--accent-color);
-}
-
-.nav-list--mobile {
-  margin-bottom: 306px;
 }
 
 .nav-list__item--mobile {
@@ -199,6 +195,13 @@ img {
 
 .nav-list__link--mobile:hover, .nav-list__link--mobile:focus {
   color: var(--accent-color);
+}
+
+.mobile-menu-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .contacts-list--mobile {
@@ -345,8 +348,9 @@ img {
   margin-bottom: 0;
 }
 
-.callback-form-label div {
+.callback-form-wrapper {
   position: relative;
+  display: block;
 }
 
 .callback-icon {
@@ -468,7 +472,7 @@ img {
 .section-header {
   margin-bottom: 30px;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
@@ -478,6 +482,7 @@ img {
 @media screen and (min-width: 1200px) {
   .section-header {
     margin-bottom: 50px;
+    font-size: 36px;
   }
 }
 
@@ -553,6 +558,7 @@ img {
 .header {
   padding-top: 10px;
   padding-bottom: 10px;
+  border-bottom: 1px solid #ececec;
 }
 
 @media screen and (min-width: 768px) {
@@ -615,6 +621,12 @@ img {
   color: var(--accent-color);
 }
 
+@media screen and (min-width: 1200px) {
+  .nav-list__link {
+    padding-bottom: 34px;
+  }
+}
+
 .nav-list__link.active {
   position: relative;
   color: var(--accent-color);
@@ -652,6 +664,7 @@ img {
   .contacts-list {
     display: flex;
     margin-left: auto;
+    font-size: 14px;
   }
 }
 
@@ -704,7 +717,6 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 480px;
   height: 400px;
 }
 
@@ -717,7 +729,6 @@ img {
 @media screen and (min-width: 768px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-tablet.jpg);
-    max-width: 768px;
   }
 }
 
@@ -835,6 +846,12 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--header-color);
+}
+
+@media screen and (max-width: 767px) {
+  .priorities-header {
+    text-align: center;
+  }
 }
 
 .priorities-text {
@@ -1312,14 +1329,14 @@ img {
 @media screen and (min-width: 768px) {
   .filter-list {
     justify-content: center;
-    margin-bottom: 34px;
+    margin-bottom: 30px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .filter-list {
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 }
 

@@ -2,6 +2,8 @@
   padding-top: 10px;
   padding-bottom: 10px;
 
+  border-bottom: 1px solid #ececec;
+
   @media screen and (min-width: 768px) {
     padding-top: 21px;
     padding-bottom: 21px;
@@ -54,6 +56,9 @@
   &:focus {
     color: var(--accent-color);
   }
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 34px;
+  }
 }
 
 .nav-list__link.active {
@@ -93,6 +98,8 @@
   @media screen and (min-width: 1200px) {
     display: flex;
     margin-left: auto;
+
+    font-size: 14px;
   }
 }
 
